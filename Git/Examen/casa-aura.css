@@ -1,0 +1,400 @@
+.header {
+    background-image: "";
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(223, 225, 227);
+    padding: 15px 30px;
+
+    nav {
+        margin-left: auto;
+    }
+
+    ul {
+        display: flex;
+        gap: 25px;
+        list-style: none;
+        align-items: center;
+        margin: 0;
+
+    }
+
+}
+
+body {
+    margin: 0;
+}
+
+.beneficios {
+    background-color: #f3f4f6;
+    padding: 50px 60px;
+    text-align: center;
+}
+
+.header h1 {
+    color: #9d6b8c;
+}
+
+h2 {
+    color: black;
+}
+
+
+
+.beneficios {
+    padding: 50px 60px;
+    text-align: center;
+
+}
+
+.beneficios-grid {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 100px 10px;
+    margin: 0;
+}
+
+.beneficios .beneficios-card {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.beneficios-card {
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: left;
+    width: 200px;
+
+    img {
+        width: 100%;
+        display: block;
+    }
+
+    span {
+        display: block;
+        padding: 15px;
+        font-weight: bold;
+        color: #222;
+    }
+}
+
+.profesor-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.clases-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.muesta-clases h3,
+.Profesores h3,
+.muesta-clases .mini-subtitulos,
+.Profesores .mini-subtitulos {
+    text-align: center;
+
+}
+
+#titulo-horario {
+    color: #9d6b8c;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #4f4649;
+    font-family: Arial, sans-serif;
+}
+
+.header,
+.footer {
+    min-height: 420px;
+    padding: 18px 7% 55px;
+    background-color: #f7f1ef;
+    border-bottom: 1px solid #eee5e2;
+}
+
+.header,
+.footer nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header,
+.footer .logo {
+    width: 115px;
+    height: auto;
+}
+
+.header,
+.footer nav ul {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 22px;
+    padding: 0;
+}
+
+.header nav a {
+    color: #4f4649;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.header button,
+.horarios-info button {
+    border: 0;
+    padding: 9px 16px;
+    background-color: #76566a;
+    color: white;
+    font-size: 11px;
+}
+
+.header>section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1050px;
+    margin: 65px auto 0;
+}
+
+/*Saparacion del alcance de cada parte*/
+
+
+.header h1 {
+    margin: 12px 0;
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.header section p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.header section>button {
+    margin-top: 18px;
+    margin-right: 10px;
+}
+
+.header .btn-secondary {
+    border: 1px solid #76566a;
+    background-color: transparent;
+    color: #76566a;
+}
+
+.beneficios {
+    padding: 28px 7%;
+    background-color: #fff;
+}
+
+.beneficios>.beneficios-card {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+    background: transparent;
+}
+
+/*aplicar mismos atributos a estas tres clases (vienen o estan anidadas)*/
+.beneficios>.beneficios-card>.beneficios-card {
+    width: 25%;
+    padding: 12px;
+    text-align: center;
+}
+
+.beneficios-card img {
+    height: 35px;
+    background-color: #f0e8eb;
+}
+
+.beneficios-card span {
+    padding: 8px 0 0;
+    font-size: 12px;
+}
+
+/*Aplicar estos recursos a estas dos clases distintas*/
+.muesta-clases,
+.Profesores {
+    padding: 38px 7%;
+    text-align: center;
+}
+
+.mini-subtitulos {
+    margin: 0 0 8px;
+    color: #9d6b8c;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.muesta-clases h3,
+.Profesores h3 {
+    margin: 0 0 8px;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.section-text {
+    margin: 0 auto 22px;
+    color: #817579;
+    font-size: 12px;
+}
+
+.clases-grid,
+.profesor-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.clases-card,
+.profesor-card {
+    flex: 1;
+    overflow: hidden;
+    border: 1px solid #eee6e3;
+    background-color: #fff;
+    text-align: left;
+}
+
+.clases-card img,
+.profesor-card img {
+    width: 100%;
+    height: 125px;
+    display: block;
+    background-color: #e9dfdc;
+
+}
+
+.clases-card span,
+.profesor-card span {
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.header>section {
+    margin-top: 45px;
+}
+
+/*tamaño del que partiran las secciones hijas del header*/
+.header>section>div:first-child,
+.header>section>div:nth-child(2) {
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 34px;
+}
+
+/*Atributo aplicado a distintas clases*/
+.beneficios>.beneficios-card,
+.clases-grid,
+.profesor-grid {
+    flex-wrap: wrap;
+}
+
+
+/*Atributo aplicado a distintas clases*/
+.beneficios>.beneficios-card>.beneficios-card {
+    width: 45%;
+}
+
+
+.horarios-clases {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+    min-height: 270px;
+    padding: 45px 8%;
+    background-color: #f6eef1;
+}
+
+.horarios-info,
+.horarios-lista,
+.horarios-final {
+    flex: 1;
+}
+
+.horarios-info h2 {
+    max-width: 240px;
+    margin: 0 0 12px;
+    font-size: 28px;
+    line-height: 1.05;
+}
+
+.horarios-info p {
+    max-width: 250px;
+    margin: 0 0 18px;
+    color: #5e5558;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.horarios-info button {
+    padding: 8px 14px;
+    border: 1px solid #776a70;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #4d4448;
+    cursor: pointer;
+}
+
+.horarios-lista {
+    padding: 14px 18px;
+    background-color: rgba(255, 255, 255, .65);
+}
+
+.horario-fila {
+    display: flex;
+    gap: 7px;
+    padding: 5px 0;
+    color: #51484c;
+    font-size: 12px;
+}
+
+.horario-fila strong {
+    width: 42px;
+    font-weight: 600;
+}
+
+
+.horarios-final {
+    min-height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    text-align: center;
+}
+
+.horarios-final p {
+    margin: 0;
+    color: #625552;
+    font-size: 11px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+
+.horarios-info h2,
+.horarios-info p {
+    max-width: none;
+}
+
+.horarios-final {
+    min-height: 100px;
+}
