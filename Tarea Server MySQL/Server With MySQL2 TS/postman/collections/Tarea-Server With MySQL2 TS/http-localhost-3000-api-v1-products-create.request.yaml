@@ -1,0 +1,23 @@
+$kind: http-request
+name: "   http://localhost:3000/api/v1/products/create"
+description: ""
+url: "   http://localhost:3000/api/v1/products/create"
+method: POST
+body:
+  type: json
+  content: "   {\r
+
+    \     \"name\": \"Monitor 24 pulgadas\",\r
+
+    \     \"price\": 3499.99,\r
+
+    \     \"stock\": 8,\r
+
+    \     \"description\": \"Monitor Full HD de 24 pulgadas\",\r
+
+    \     \"brand\": \"Nova\",\r
+
+    \     \"img\": \"monitor-24.jpg\"\r
+
+    \   }"
+order: 1791347645239

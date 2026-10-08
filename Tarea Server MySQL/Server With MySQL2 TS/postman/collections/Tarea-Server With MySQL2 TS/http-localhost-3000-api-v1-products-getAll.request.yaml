@@ -1,0 +1,29 @@
+$kind: http-request
+name: "   http://localhost:3000/api/v1/products/getAll"
+description: ""
+url: http://localhost:3000/api/v1/products/update/4
+method: PUT
+body:
+  type: json
+  content: "  {\r
+
+    \    \"name\": \"Monitor 27 pulgadas\",\r
+
+    \    \"price\": 4299.50,\r
+
+    \    \"stock\": 5,\r
+
+    \    \"description\": \"Monitor Full HD de 27 pulgadas\",\r
+
+    \    \"brand\": \"Nova\",\r
+
+    \    \"img\": \"monitor-27.jpg\"\r
+
+    \  }"
+settings:
+  protocolVersion: auto
+  strictSSL: false
+  followRedirects: true
+  disableCookies: false
+  maxResponseSize: 52428800
+order: 3661156984850163
