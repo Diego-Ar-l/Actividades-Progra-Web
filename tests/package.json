@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "bcrypt": "^6.0.0",
+    "vitest": "^5.1.0"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}
